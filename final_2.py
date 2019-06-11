@@ -201,7 +201,7 @@ if __name__ == '__main__':
 
     #     testing model
     my_CNN = ConvolutionalNeuralNetworks()
-    my_CNN.CNN_Network.load_weights('./saved_model/CNN_Network_on_epoch_148.h5')
+    my_CNN.CNN_Network.load_weights('./saved_model/CNN_Network_on_epoch_99.h5')
     imgs, labels = my_CNN.data_loader.load_data(batch_size=1024)
     pred_labels = my_CNN.CNN_Network.predict(imgs)
     print("Validation acc: " + str(
