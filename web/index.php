@@ -193,6 +193,7 @@ fileBtn.addEventListener('change', () => {
                 });
             }
         })
+  file.value = ""
     }
 
 )
