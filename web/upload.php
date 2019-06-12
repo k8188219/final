@@ -1,4 +1,5 @@
 <?php
+// from https://www.w3schools.com/php7/php7_file_upload.asp
 $target_dir = "./images/";
 $target_file = dechex(rand(1,100000000));
 $uploadOk = 0;
